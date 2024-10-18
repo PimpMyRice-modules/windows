@@ -7,5 +7,5 @@
 ## Set up
 
 ```bash
-pimp clone module pimp://windows
+rice clone module pimp://windows
 ```
