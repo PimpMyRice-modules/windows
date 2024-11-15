@@ -1,3 +1,3 @@
 os: windows
 run:
-    - shell: 'powershell {{files_dir}}/set_wallpaper.ps1 {{wallpaper.path}}'
+    - shell: 'powershell {{templates_dir}}/set_wallpaper.ps1 {{wallpaper.path}}'
