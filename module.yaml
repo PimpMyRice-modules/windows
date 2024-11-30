@@ -1,3 +1,8 @@
-os: windows
+# yaml-language-server: $schema=../../.json_schemas/module.json
+
+os:
+    - windows
+
 run:
-    - shell: 'powershell {{templates_dir}}/set_wallpaper.ps1 {{wallpaper.path}}'
+    - action: shell
+      command: 'powershell {{files_dir}}/set_wallpaper.ps1 {{wallpaper.path}}'
